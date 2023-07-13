@@ -18,10 +18,10 @@ dependencies {
     implementation 'org.projectlombok:lombok:1.18.26'
     testImplementation 'junit:junit:4.13.2'
     testImplementation 'org.junit.jupiter:junit-jupiter:5.7.0'
-    testImplementation 'com.codeborne:selenide:6.12.2'
+    testImplementation 'com.codeborne:selenide:6.13.0'
     testImplementation 'com.github.javafaker:javafaker:1.0.1'
-    testImplementation 'io.rest-assured:rest-assured:5.2.0'
-    testImplementation 'com.google.code.gson:gson:2.10.1'
+    testImplementation 'commons-dbutils:commons-dbutils:1.7'
+    testImplementation 'mysql:mysql-connector-java:8.0.30'
 }
 
 test {
